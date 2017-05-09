@@ -1,0 +1,22 @@
+body,
+p,
+span,
+div {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+}
+
+.card {
+    margin-top: 1rem;
+}
+
+.card-info {
+    color: #000;
+    display: inline-block;
+    margin-left: 0.7rem;
+}
+
+.card-name {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
