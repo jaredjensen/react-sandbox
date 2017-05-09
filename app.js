@@ -27,7 +27,7 @@ class Form extends React.Component {
             .then(resp => {
                 this.props.onSubmit(resp.data);
             });
-        this.setState({ userName: '' });
+        this.setState({ userName: "" });
     };
 
     render() {
@@ -45,10 +45,12 @@ class Form extends React.Component {
 class App extends React.Component {
     state = {
         cards: [{
+            id: 2508197,
             name: "Jared Jensen",
             company: "Avanade",
             avatar_url: "https://avatars0.githubusercontent.com/u/2508197?v=3"
         }, {
+            id: 8445,
             name: "Paul O'Shannessy",
             company: "Facebook",
             avatar_url: "https://avatars0.githubusercontent.com/u/8445?v=3"

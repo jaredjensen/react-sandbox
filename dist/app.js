@@ -68,7 +68,7 @@ var Form = function (_React$Component) {
                 axios.get("https://api.github.com/users/" + _this.state.userName).then(function (resp) {
                     _this.props.onSubmit(resp.data);
                 });
-                _this.setState({ userName: '' });
+                _this.setState({ userName: "" });
             }
         }), _temp), _possibleConstructorReturn(_this, _ret);
     }
@@ -117,10 +117,12 @@ var App = function (_React$Component2) {
             writable: true,
             value: {
                 cards: [{
+                    id: 2508197,
                     name: "Jared Jensen",
                     company: "Avanade",
                     avatar_url: "https://avatars0.githubusercontent.com/u/2508197?v=3"
                 }, {
+                    id: 8445,
                     name: "Paul O'Shannessy",
                     company: "Facebook",
                     avatar_url: "https://avatars0.githubusercontent.com/u/8445?v=3"
